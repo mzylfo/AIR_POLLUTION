@@ -1,0 +1,28 @@
+{
+    "VAE":{
+        "encoder_layers": [
+            {"layer": "Linear", "in_features": 128, "out_features": 74},
+            {"layer": "Tanh"},
+            {"layer": "BatchNorm1d", "num_features": 1, "affine": true},
+            {"layer": "Linear", "in_features": 74, "out_features": 20}
+        ],
+        "decoder_layers": [
+            {"layer": "Linear", "in_features": 20, "out_features": 74},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 74, "out_features": 128}
+        ]        
+    },
+    "GAN":{
+        "generator_layers":[],
+        "discriminator_layers":[
+            {"layer": "Linear", "in_features": 128, "out_features": 32},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 32, "out_features": 16},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 16, "out_features": 4},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 4, "out_features": 1},
+            {"layer": "Sigmoid"}
+        ]
+    }
+}

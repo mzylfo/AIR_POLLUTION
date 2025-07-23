@@ -1,0 +1,27 @@
+{
+    "VAE":{
+        "encoder_layers": [
+            {"layer": "Linear", "in_features": 3, "out_features": 12},
+            {"layer": "Tanh"},
+            {"layer": "BatchNorm1d", "num_features": 1, "affine": true},
+            {"layer": "Parallel", "layers": [
+                {"name": "mu", "layers": [
+                        {"layer": "Linear", "in_features": 12, "out_features": 6, "name": "mu_dense"},
+                        {"layer": "Tanh"},
+                        {"layer": "BatchNorm1d", "num_features": 1, "affine": true}
+                ]},
+                {"name": "logvar", "layers": [
+                        {"layer": "Linear", "in_features": 12, "out_features": 6, "name": "logvar_dense"},
+                        {"layer": "Tanh"},
+                        {"layer": "BatchNorm1d", "num_features": 1, "affine": true}
+                ]}
+            ]}
+        ],
+        "decoder_layers": [
+            {"layer": "Linear", "in_features": 6, "out_features": 12},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 12, "out_features": 3}
+            
+        ]        
+    }
+}

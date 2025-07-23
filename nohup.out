@@ -1,0 +1,357 @@
+
+
+[1m|------------------------|[0m
+[1m|        Traffic         |[0m
+[1m|  Scenarios Generation  |[0m
+[1m|------------------------|[0m
+[1m| Process: neuroD[0m
+[1m|------------------------|[0m
+
+
+[1m|------------------------|[0m
+[1m| Modelcase   : AE_CHENGDU_URBAN_ZONE_0_graph[0m
+[1m|  settings   : {'id': 24, 'case': 'CHENGDU_ZONE', 'model_case': 'AE_CHENGDU_URBAN_ZONE_0_graph', 'epoch': {'AE': 100, 'GAN': 1}, 'univar_count': 248, 'lat_dim': 80, 'dataset_setting': {'batch_size': {'AE': 2375, 'GAN': 256}, 'train_percentual': 0.9, 'starting_sample': None, 'train_samples': None, 'test_samples': None, 'noise_samples': 10000, 'seed': 1}, 'instaces_size': 1, 'optimization': False, 'input_shape': 'vector'}[0m
+[1m|  seed       : 1[0m
+[1m|  time_slot  : A[0m
+[1m|------------------------|[0m
+SETTING PHASE: Seed 
+seed torch:	 1
+seed data:	 1
+seed noise:	 1
+SETTING PHASE: Device selection
+	device:	 cuda:0
+SETTING PHASE: Model creation
+	model_case:	 AE_CHENGDU_URBAN_ZONE_0_graph
+DATASET PHASE: Load maps data
+draw_plots  True
+filepath src/NeuroCorrelation/Datasets/CHENGDU_dataset.json
+	train samples: done
+	test samples: done
+Save shuffled indexes
+data/neuroCorrelation_experiments/2024_11_07_chengdu_small_zone0__1/chengdu_zone0___24_1/maps_analysis_CHENGDU/indexes_train.csv
+...
+	NoiseReduced method:  percentile
+	NoiseReduced samples: done
+saveDataset_setting	 batch_size
+saveDataset_setting	 train_percentual
+saveDataset_setting	 starting_sample
+saveDataset_setting	 train_samples
+saveDataset_setting	 test_samples
+saveDataset_setting	 noise_samples
+saveDataset_setting	 seed
+SETTING PHASE: Summary dataset file - DONE
+rangeData:	 {'max_val': 101.55, 'min_val': 4.366666667}
+Layers initialized: Sequential(
+  (0): GCNConv(1, 1)
+  (1): Tanh()
+  (2): BatchNorm1d(1, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (3): Dropout(p=0.2, inplace=False)
+  (4): Linear(in_features=248, out_features=124, bias=True)
+  (5): Tanh()
+  (6): Dropout(p=0.2, inplace=False)
+  (7): Linear(in_features=124, out_features=80, bias=True)
+)
+Layers initialized: Sequential(
+  (0): Linear(in_features=80, out_features=124, bias=True)
+  (1): Tanh()
+  (2): Dropout(p=0.2, inplace=False)
+  (3): Linear(in_features=124, out_features=248, bias=True)
+  (4): Tanh()
+  (5): Dropout(p=0.2, inplace=False)
+  (6): GCNConv(1, 1)
+)
+Layers initialized: Sequential(
+  (0): Linear(in_features=248, out_features=124, bias=True)
+  (1): Tanh()
+  (2): Linear(in_features=124, out_features=16, bias=True)
+  (3): Tanh()
+  (4): Linear(in_features=16, out_features=4, bias=True)
+  (5): Tanh()
+  (6): Linear(in_features=4, out_features=1, bias=True)
+  (7): Sigmoid()
+)
+Layers initialized: Sequential()
+		GRAPH TOPOLOGY:	 True
+	OPTIMIZATION:	False
+TRAINING PHASE: Training data -  AE
+PAY ATTENTION: GEN is update every 1 batches
+PAY ATTENTION: check weights update is on
+lr_ae	 0.01
+	TRAIN TRAINED MODEL:	
+AE mode training:	 True
+-------------------------------------------------------------------------------------------------------------------------- AE
+	epoch:	 0 / 100 	 -
+	epoch:	 1 / 100 	 - time tr epoch:  0:00:39.569400 	loss:  8.91074 	loss_test:  7.6126714 	lr:  0.01
+	epoch:	 2 / 100 	 - time tr epoch:  0:00:34.448814 	loss:  6.6500664 	loss_test:  4.613845 	lr:  0.01
+	epoch:	 3 / 100 	 - time tr epoch:  0:00:34.711817 	loss:  17.868711 	loss_test:  6.1523457 	lr:  0.01
+	epoch:	 4 / 100 	 - time tr epoch:  0:00:34.429777 	loss:  6.5254993 	loss_test:  5.927288 	lr:  0.01
+	epoch:	 5 / 100 	 - time tr epoch:  0:00:34.686537 	loss:  4.120498 	loss_test:  5.5021152 	lr:  0.01
+	epoch:	 6 / 100 	 - time tr epoch:  0:00:34.401091 	loss:  4.608097 	loss_test:  4.2747087 	lr:  0.01
+	epoch:	 7 / 100 	 - time tr epoch:  0:00:34.856292 	loss:  5.1344266 	loss_test:  4.300819 	lr:  0.01
+	epoch:	 8 / 100 	 - time tr epoch:  0:00:34.377976 	loss:  0.8667741 	loss_test:  4.282923 	lr:  0.01
+	epoch:	 9 / 100 	 - time tr epoch:  0:00:34.322198 	loss:  2.3332648 	loss_test:  3.4186122 	lr:  0.01
+	epoch:	 10 / 100 	 - time tr epoch:  0:00:34.324025 	loss:  1.3749243 	loss_test:  2.2919083 	lr:  0.01
+	epoch:	 11 / 100 	 - time tr epoch:  0:00:34.443203 	loss:  1.4789015 	loss_test:  2.1564858 	lr:  0.01
+	epoch:	 12 / 100 	 - time tr epoch:  0:00:34.522032 	loss:  3.0574956 	loss_test:  1.3296269 	lr:  0.01
+	epoch:	 13 / 100 	 - time tr epoch:  0:00:34.143197 	loss:  3.014998 	loss_test:  1.8607848 	lr:  0.01
+	epoch:	 14 / 100 	 - time tr epoch:  0:00:34.438655 	loss:  0.76424825 	loss_test:  2.286291 	lr:  0.01
+	epoch:	 15 / 100 	 - time tr epoch:  0:00:34.686254 	loss:  1.2183175 	loss_test:  2.1934292 	lr:  0.01
+	epoch:	 16 / 100 	 - time tr epoch:  0:00:34.069224 	loss:  0.68363744 	loss_test:  2.0634122 	lr:  0.01
+	epoch:	 17 / 100 	 - time tr epoch:  0:00:34.294167 	loss:  1.0022805 	loss_test:  2.057287 	lr:  0.01
+	epoch:	 18 / 100 	 - time tr epoch:  0:00:34.624255 	loss:  0.7956673 	loss_test:  1.9941884 	lr:  0.01
+	epoch:	 19 / 100 	 - time tr epoch:  0:00:34.606012 	loss:  0.5528894 	loss_test:  1.843795 	lr:  0.01
+	epoch:	 20 / 100 	 - time tr epoch:  0:00:34.086997 	loss:  0.55489045 	loss_test:  1.6506401 	lr:  0.01
+	epoch:	 21 / 100 	 - time tr epoch:  0:00:34.840480 	loss:  0.6007722 	loss_test:  1.4935652 	lr:  0.01
+	epoch:	 22 / 100 	 - time tr epoch:  0:00:34.356563 	loss:  0.557038 	loss_test:  1.3125775 	lr:  0.01
+	epoch:	 23 / 100 	 - time tr epoch:  0:00:34.431060 	loss:  0.48562238 	loss_test:  1.1513214 	lr:  0.01
+	epoch:	 24 / 100 	 - time tr epoch:  0:00:34.675282 	loss:  0.35037845 	loss_test:  1.1048247 	lr:  0.01
+	epoch:	 25 / 100 	 - time tr epoch:  0:00:34.972388 	loss:  0.36388832 	loss_test:  1.1205276 	lr:  0.01
+	epoch:	 26 / 100 	 - time tr epoch:  0:00:34.346456 	loss:  0.23830977 	loss_test:  1.0908896 	lr:  0.01
+	epoch:	 27 / 100 	 - time tr epoch:  0:00:34.300486 	loss:  0.31896132 	loss_test:  0.9612516 	lr:  0.01
+	epoch:	 28 / 100 	 - time tr epoch:  0:00:34.712186 	loss:  0.19960438 	loss_test:  0.818267 	lr:  0.01
+	epoch:	 29 / 100 	 - time tr epoch:  0:00:34.504865 	loss:  0.2137565 	loss_test:  0.74129945 	lr:  0.01
+	epoch:	 30 / 100 	 - time tr epoch:  0:00:34.551797 	loss:  0.22374602 	loss_test:  0.73180073 	lr:  0.01
+	epoch:	 31 / 100 	 - time tr epoch:  0:00:34.397398 	loss:  0.15636718 	loss_test:  0.75286365 	lr:  0.01
+	epoch:	 32 / 100 	 - time tr epoch:  0:00:34.589385 	loss:  0.14867723 	loss_test:  0.73967266 	lr:  0.01
+	epoch:	 33 / 100 	 - time tr epoch:  0:00:34.552879 	loss:  0.13628745 	loss_test:  0.67922187 	lr:  0.01
+	epoch:	 34 / 100 	 - time tr epoch:  0:00:34.383411 	loss:  0.113107346 	loss_test:  0.6101929 	lr:  0.01
+	epoch:	 35 / 100 	 - time tr epoch:  0:00:34.542077 	loss:  0.1212946 	loss_test:  0.5611226 	lr:  0.01
+	epoch:	 36 / 100 	 - time tr epoch:  0:00:34.096943 	loss:  0.11238083 	loss_test:  0.54974884 	lr:  0.01
+	epoch:	 37 / 100 	 - time tr epoch:  0:00:34.745527 	loss:  0.10779205 	loss_test:  0.5679237 	lr:  0.01
+	epoch:	 38 / 100 	 - time tr epoch:  0:00:34.360064 	loss:  0.10153166 	loss_test:  0.58370286 	lr:  0.01
+	epoch:	 39 / 100 	 - time tr epoch:  0:00:34.800641 	loss:  0.097136386 	loss_test:  0.5726055 	lr:  0.01
+	epoch:	 40 / 100 	 - time tr epoch:  0:00:34.284082 	loss:  0.09906967 	loss_test:  0.52986217 	lr:  0.001
+	epoch:	 41 / 100 	 - time tr epoch:  0:00:34.694751 	loss:  0.08424629 	loss_test:  0.51969784 	lr:  0.001
+	epoch:	 42 / 100 	 - time tr epoch:  0:00:34.482566 	loss:  0.081632115 	loss_test:  0.5089472 	lr:  0.001
+	epoch:	 43 / 100 	 - time tr epoch:  0:00:34.283489 	loss:  0.079455085 	loss_test:  0.49744254 	lr:  0.001
+	epoch:	 44 / 100 	 - time tr epoch:  0:00:34.716562 	loss:  0.07735467 	loss_test:  0.48659047 	lr:  0.001
+	epoch:	 45 / 100 	 - time tr epoch:  0:00:34.503554 	loss:  0.07538488 	loss_test:  0.47623765 	lr:  0.001
+	epoch:	 46 / 100 	 - time tr epoch:  0:00:34.704849 	loss:  0.073153324 	loss_test:  0.46642873 	lr:  0.001
+	epoch:	 47 / 100 	 - time tr epoch:  0:00:34.631425 	loss:  0.07428035 	loss_test:  0.457242 	lr:  0.001
+	epoch:	 48 / 100 	 - time tr epoch:  0:00:34.345299 	loss:  0.07286052 	loss_test:  0.44858113 	lr:  0.001
+	epoch:	 49 / 100 	 - time tr epoch:  0:00:34.619263 	loss:  0.07001145 	loss_test:  0.4413403 	lr:  0.001
+	epoch:	 50 / 100 	 - time tr epoch:  0:00:34.476461 	loss:  0.07078318 	loss_test:  0.43554622 	lr:  0.001
+	epoch:	 51 / 100 	 - time tr epoch:  0:00:34.661816 	loss:  0.069409445 	loss_test:  0.43140233 	lr:  0.001
+	epoch:	 52 / 100 	 - time tr epoch:  0:00:34.610576 	loss:  0.06769183 	loss_test:  0.42926013 	lr:  0.001
+	epoch:	 53 / 100 	 - time tr epoch:  0:00:34.378094 	loss:  0.06534537 	loss_test:  0.42846027 	lr:  0.001
+	epoch:	 54 / 100 	 - time tr epoch:  0:00:34.326281 	loss:  0.06414761 	loss_test:  0.42866784 	lr:  0.001
+	epoch:	 55 / 100 	 - time tr epoch:  0:00:34.040007 	loss:  0.062225133 	loss_test:  0.4290994 	lr:  0.001
+	epoch:	 56 / 100 	 - time tr epoch:  0:00:34.654083 	loss:  0.06143825 	loss_test:  0.4285418 	lr:  0.001
+	epoch:	 57 / 100 	 - time tr epoch:  0:00:34.676205 	loss:  0.061137147 	loss_test:  0.42633796 	lr:  0.001
+	epoch:	 58 / 100 	 - time tr epoch:  0:00:34.565794 	loss:  0.06117285 	loss_test:  0.4219411 	lr:  0.001
+	epoch:	 59 / 100 	 - time tr epoch:  0:00:34.149893 	loss:  0.060449716 	loss_test:  0.41692886 	lr:  0.001
+	epoch:	 60 / 100 	 - time tr epoch:  0:00:34.430913 	loss:  0.058878776 	loss_test:  0.41206387 	lr:  0.001
+	epoch:	 61 / 100 	 - time tr epoch:  0:00:34.425466 	loss:  0.058231473 	loss_test:  0.4067352 	lr:  0.001
+	epoch:	 62 / 100 	 - time tr epoch:  0:00:34.161288 	loss:  0.057116024 	loss_test:  0.40158394 	lr:  0.001
+	epoch:	 63 / 100 	 - time tr epoch:  0:00:34.690826 	loss:  0.056751184 	loss_test:  0.3967588 	lr:  0.001
+	epoch:	 64 / 100 	 - time tr epoch:  0:00:34.603700 	loss:  0.056100648 	loss_test:  0.3926058 	lr:  0.001
+	epoch:	 65 / 100 	 - time tr epoch:  0:00:34.476012 	loss:  0.054930493 	loss_test:  0.38949656 	lr:  0.001
+	epoch:	 66 / 100 	 - time tr epoch:  0:00:34.339343 	loss:  0.054077983 	loss_test:  0.3868438 	lr:  0.001
+	epoch:	 67 / 100 	 - time tr epoch:  0:00:34.515788 	loss:  0.053428844 	loss_test:  0.38457543 	lr:  0.001
+	epoch:	 68 / 100 	 - time tr epoch:  0:00:35.200823 	loss:  0.053778075 	loss_test:  0.38288563 	lr:  0.001
+	epoch:	 69 / 100 	 - time tr epoch:  0:00:39.858624 	loss:  0.05340809 	loss_test:  0.38188872 	lr:  0.001
+	epoch:	 70 / 100 	 - time tr epoch:  0:00:39.952539 	loss:  0.052239396 	loss_test:  0.38148862 	lr:  0.001
+	epoch:	 71 / 100 	 - time tr epoch:  0:00:39.937406 	loss:  0.05348128 	loss_test:  0.3815467 	lr:  0.001
+	epoch:	 72 / 100 	 - time tr epoch:  0:00:40.327322 	loss:  0.050921664 	loss_test:  0.38191327 	lr:  0.001
+	epoch:	 73 / 100 	 - time tr epoch:  0:00:39.962277 	loss:  0.050864507 	loss_test:  0.38231882 	lr:  0.001
+	epoch:	 74 / 100 	 - time tr epoch:  0:00:40.144485 	loss:  0.05085124 	loss_test:  0.38291502 	lr:  0.001
+	epoch:	 75 / 100 	 - time tr epoch:  0:00:39.915275 	loss:  0.0511219 	loss_test:  0.38338867 	lr:  0.001
+	epoch:	 76 / 100 	 - time tr epoch:  0:00:40.315139 	loss:  0.049976967 	loss_test:  0.3837997 	lr:  0.001
+	epoch:	 77 / 100 	 - time tr epoch:  0:00:40.343329 	loss:  0.05014692 	loss_test:  0.3838983 	lr:  0.001
+	epoch:	 78 / 100 	 - time tr epoch:  0:00:39.573419 	loss:  0.04923032 	loss_test:  0.38357815 	lr:  0.001
+	epoch:	 79 / 100 	 - time tr epoch:  0:00:40.096030 	loss:  0.049269177 	loss_test:  0.3827795 	lr:  0.001
+	epoch:	 80 / 100 	 - time tr epoch:  0:00:39.874645 	loss:  0.048838876 	loss_test:  0.38193452 	lr:  0.0001
+	epoch:	 81 / 100 	 - time tr epoch:  0:00:40.072416 	loss:  0.04881837 	loss_test:  0.38139087 	lr:  0.0001
+	epoch:	 82 / 100 	 - time tr epoch:  0:00:39.920941 	loss:  0.04884869 	loss_test:  0.3809469 	lr:  0.0001
+	epoch:	 83 / 100 	 - time tr epoch:  0:00:39.643652 	loss:  0.048389476 	loss_test:  0.38055995 	lr:  0.0001
+	epoch:	 84 / 100 	 - time tr epoch:  0:00:40.046770 	loss:  0.048845034 	loss_test:  0.38023952 	lr:  0.0001
+	epoch:	 85 / 100 	 - time tr epoch:  0:00:39.944070 	loss:  0.04897477 	loss_test:  0.37988958 	lr:  0.0001
+	epoch:	 86 / 100 	 - time tr epoch:  0:00:40.353420 	loss:  0.048284214 	loss_test:  0.37954223 	lr:  0.0001
+	epoch:	 87 / 100 	 - time tr epoch:  0:00:39.921667 	loss:  0.048881806 	loss_test:  0.3792379 	lr:  0.0001
+	epoch:	 88 / 100 	 - time tr epoch:  0:00:40.450359 	loss:  0.048547953 	loss_test:  0.3789355 	lr:  0.0001
+	epoch:	 89 / 100 	 - time tr epoch:  0:00:40.126221 	loss:  0.048970874 	loss_test:  0.37865788 	lr:  0.0001
+	epoch:	 90 / 100 	 - time tr epoch:  0:00:40.077673 	loss:  0.049073696 	loss_test:  0.37841484 	lr:  0.0001
+	epoch:	 91 / 100 	 - time tr epoch:  0:00:40.112138 	loss:  0.048476025 	loss_test:  0.37816492 	lr:  0.0001
+	epoch:	 92 / 100 	 - time tr epoch:  0:00:40.067882 	loss:  0.048365287 	loss_test:  0.37796497 	lr:  0.0001
+	epoch:	 93 / 100 	 - time tr epoch:  0:00:40.586470 	loss:  0.0491506 	loss_test:  0.37778628 	lr:  0.0001
+	epoch:	 94 / 100 	 - time tr epoch:  0:00:39.906398 	loss:  0.04826567 	loss_test:  0.3776568 	lr:  0.0001
+	epoch:	 95 / 100 	 - time tr epoch:  0:00:40.048656 	loss:  0.04856067 	loss_test:  0.3775601 	lr:  0.0001
+	epoch:	 96 / 100 	 - time tr epoch:  0:00:39.833707 	loss:  0.04839914 	loss_test:  0.37746987 	lr:  0.0001
+	epoch:	 97 / 100 	 - time tr epoch:  0:00:39.990890 	loss:  0.04865332 	loss_test:  0.3773922 	lr:  0.0001
+	epoch:	 98 / 100 	 - time tr epoch:  0:00:40.132048 	loss:  0.048331305 	loss_test:  0.37736383 	lr:  0.0001
+	epoch:	 99 / 100 	 - time tr epoch:  0:00:40.020606 	loss:  0.04899318 	loss_test:  0.37735242 	lr:  0.0001
+	epoch:	 100 / 100 	 - time tr epoch:  0:00:40.434136 	loss:  0.048772555 	loss_test:  0.3773139 	lr:  0.0001
+	TIME TRAIN MODEL:	 1:01:07.401589
+	SAVE TRAINED MODEL AE:	 data/neuroCorrelation_experiments/2024_11_07_chengdu_small_zone0__1/chengdu_zone0___24_1/AE/model_save_AE/model_weights_AE.pth
+copula in_vect values:	 2430
+	load truth data: done
+	fit gaussian copula data: 20 punti
+	fit gaussian copula data: start
+	fit gaussian copula data: end
+	TIME fit gaussian copula data:	 0:01:37.205338
+	TIME gen gaussian copula data:	 0:00:04.252355
+	generate gaussian copula data: done 	(1000 instances)
+[1mSETTING PHASE: Compare tool[0m
+[1mPHASE: AutoEncoder[0m
+AE - PREDICT PHASE: Training data
+	TIME to make AE_train_pred prediction:	 0:00:00.001756
+		 Statistics data
+	STATS PHASE:  Plots
+	PLOT: Predicted Test
+		distribution analysis
+			distribution analysis: input
+			distribution analysis: latent
+			distribution analysis: output
+		distribution analysis: real and generated
+		wasserstein measure
+mahala_real_gen:	 7.496523497734256
+mahala_real_cop:	 9.936037022395599
+frechet_inception_real_gen:	 11159.44776754096
+frechet_inception_real_cop:	 2.3453978911447963e+33
+		tsne plot #points:	 1000
+[1mPHASE: AutoEncoder[0m
+AE - PREDICT PHASE: Testing data
+	TIME to make AE_test_pred prediction:	 0:00:00.001554
+		 Statistics data
+	STATS PHASE:  Plots
+	PLOT: Predicted Test
+		distribution analysis
+			distribution analysis: input
+			distribution analysis: latent
+			distribution analysis: output
+		distribution analysis: real and generated
+		wasserstein measure
+mahala_real_gen:	 7.481474743755928
+mahala_real_cop:	 9.936037022395599
+frechet_inception_real_gen:	 11160.154049076833
+frechet_inception_real_cop:	 2.3453978911447963e+33
+		tsne plot #points:	 270
+[1mPHASE: AutoEncoder[0m
+AE - PREDICT PHASE: Noised data generation
+	TIME to make AE_noise_pred prediction:	 0:00:00.000754
+		 Statistics data
+	STATS PHASE:  Plots
+	PLOT: Predicted Test
+		distribution analysis
+			distribution analysis: input
+			distribution analysis: output
+		distribution analysis: real and generated
+		wasserstein measure
+mahala_real_gen:	 6.030653684939957
+mahala_real_cop:	 9.936037022395599
+frechet_inception_real_gen:	 42399.38875023309
+frechet_inception_real_cop:	 2.3453978911447963e+33
+		tsne plot #points:	 1000
+[1mPHASE: AutoEncoder[0m
+AE - PREDICT PHASE: reduced noised data generation
+	TIME to make AE_reduced_noise_pred prediction:	 0:00:00.000809
+		 Statistics data
+	STATS PHASE:  Plots
+	PLOT: Predicted Test
+		distribution analysis
+			distribution analysis: input
+			distribution analysis: output
+		distribution analysis: real and generated
+		wasserstein measure
+mahala_real_gen:	 12.205639294647076
+mahala_real_cop:	 9.936037022395599
+frechet_inception_real_gen:	 61224.75261392265
+frechet_inception_real_cop:	 2.3453978911447963e+33
+		tsne plot #points:	 10
+[1mPHASE: AutoEncoder[0m
+AE - PREDICT PHASE: Copula Latent data
+	copula_test_data	copula.sample : start
+	copula_test_data	copula.sample : end
+	TIME to make AE_copulaLat_pred prediction:	 0:00:00.000690
+		 Statistics data
+	STATS PHASE:  Plots
+	PLOT: Predicted Test
+		distribution analysis
+			distribution analysis: input
+			distribution analysis: output
+		distribution analysis: real and generated
+		wasserstein measure
+mahala_real_gen:	 7.45829802903762
+mahala_real_cop:	 9.936037022395599
+frechet_inception_real_gen:	 11136.688217058596
+frechet_inception_real_cop:	 2.3453978911447963e+33
+		tsne plot #points:	 1000
+		GRAPH TOPOLOGY:	 True
+	OPTIMIZATION:	False
+TRAINING PHASE: Training data -  GAN
+PAY ATTENTION: GEN is update every 1 batches
+PAY ATTENTION: check weights update is on
+	TRAIN TRAINED MODEL:	
+GAN gen mode training:	 True
+GAN dis mode training:	 True
+-------------------------------------------------------------------------------------------------------------------------- GAN
+	epoch:	 0 / 1  - 
+	epoch:	 0 / 1 	
+			-LOSS D	all 0.650691032409668 	D(real) 0.5344298 	D(fake) 0.7669523 	G 0.7152354
+			-LeRt D 0.05 	G 0.05
+--------------------------------------------------
+	START check Weights Update GENERATOR
+lay_0 are not equals
+lay_1 are not equals
+lay_2 are not equals
+lay_3 are not equals
+lay_4 are not equals
+lay_5 are not equals
+	START check Weights Update DISCRIMINATOR
+lay_0 are not equals
+lay_1 are not equals
+lay_2 are not equals
+lay_3 are not equals
+lay_4 are not equals
+lay_5 are not equals
+lay_6 are not equals
+lay_7 are not equals
+--------------------------------------------------
+	TIME TRAIN MODEL:	 0:00:01.262281
+	SAVE TRAINED MODEL GAN GEN:	 data/neuroCorrelation_experiments/2024_11_07_chengdu_small_zone0__1/chengdu_zone0___24_1/GAN/model_save_GAN/model_weights_GAN_gen.pth
+	SAVE TRAINED MODEL GAN DIS:	 data/neuroCorrelation_experiments/2024_11_07_chengdu_small_zone0__1/chengdu_zone0___24_1/GAN/model_save_GAN/model_weights_GAN_dis.pth
+copula in_vect values:	 2430
+	load truth data: done
+	fit gaussian copula data: 20 punti
+	fit gaussian copula data: start
+	fit gaussian copula data: end
+	TIME fit gaussian copula data:	 0:01:24.830607
+	TIME gen gaussian copula data:	 0:00:03.654440
+	generate gaussian copula data: done 	(1000 instances)
+[1mSETTING PHASE: Compare tool[0m
+[1mPHASE: Generative Adversarial Network[0m
+GAN - PREDICT PHASE: Noised data generation
+	TIME to make GAN_noise_pred prediction:	 0:00:00.000649
+		 Statistics data
+	STATS PHASE:  Plots
+	PLOT: Predicted Test
+		distribution analysis
+			distribution analysis: input
+			distribution analysis: output
+		distribution analysis: real and generated
+		wasserstein measure
+mahala_real_gen:	 13.418633459294787
+mahala_real_cop:	 9.902771639355187
+frechet_inception_real_gen:	 1193035.7511983057
+frechet_inception_real_cop:	 6.787974496662608e+38
+		tsne plot #points:	 1000
+[1mPHASE: Generative Adversarial Network[0m
+GAN - PREDICT PHASE: reduced noised data generation
+	TIME to make GAN_reduced_noise_pred prediction:	 0:00:00.000771
+		 Statistics data
+	STATS PHASE:  Plots
+	PLOT: Predicted Test
+		distribution analysis
+			distribution analysis: input
+			distribution analysis: output
+		distribution analysis: real and generated
+		wasserstein measure
+mahala_real_gen:	 19.909718620015468
+mahala_real_cop:	 9.902771639355187
+frechet_inception_real_gen:	 1397689.6430066798
+frechet_inception_real_cop:	 6.787974496662608e+38
+		tsne plot #points:	 10
+models_size[encoder][input_size]			 248
+models_size[decoder][input_size]			 80
+SETTING PHASE: Summary model file - DONE
+[1mFolder :	2024_11_07_chengdu_small_zone0__1[0m

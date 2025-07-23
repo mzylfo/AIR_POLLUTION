@@ -1,0 +1,28 @@
+{
+    "METR_LA":{
+        "S16":{
+            "filename": "data/neuroCorrelation_dataset/METR_LA/METR_LA_S16/METR_LA_S16_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/METR_LA/METR_LA_S16/METR_LA_S16__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        },
+        "S32":{
+            "filename": "data/neuroCorrelation_dataset/METR_LA/METR_LA_S32/METR_LA_S32_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/METR_LA/METR_LA_S32/METR_LA_S32__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        },
+        "S48":{
+            "filename": "data/neuroCorrelation_dataset/METR_LA/METR_LA_S48/METR_LA_S64_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/METR_LA/METR_LA_S48/METR_LA_S64__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        },
+        "S64":{
+            "filename": "data/neuroCorrelation_dataset/METR_LA/METR_LA_S64/METR_LA_S64_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/METR_LA/METR_LA_S64/METR_LA_S64__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        }
+    }
+}

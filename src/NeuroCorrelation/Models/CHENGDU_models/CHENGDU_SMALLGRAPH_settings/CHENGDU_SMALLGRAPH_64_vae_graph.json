@@ -1,0 +1,26 @@
+{
+    "VAE":{
+        "encoder_layers": [
+            {"layer": "GCNConv_Permute", "in_channels": 1, "out_channels": 1, "in_permute":[0, 2, 1], "out_permute":[0, 2, 1]},
+            {"layer": "Tanh"},
+            
+            {"layer": "Linear", "in_features": 64, "out_features": 40},
+            {"layer": "Tanh"},
+            {"layer": "Parallel", "layers": [
+                {"name": "mu", "layers": [
+                        {"layer": "Linear", "in_features": 40, "out_features": 12, "name": "mu_dense"}
+                ]},
+                {"name": "logvar", "layers": [
+                        {"layer": "Linear", "in_features": 40, "out_features": 12, "name": "logvar_dense"}
+                ]}
+            ]}
+        ],
+        "decoder_layers": [
+            {"layer": "Linear", "in_features": 12, "out_features": 40},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 40, "out_features": 64},
+            {"layer": "Tanh"},
+            {"layer": "GCNConv_Permute", "in_channels": 1, "out_channels": 1, "in_permute":[0, 2, 1], "out_permute":[0, 2, 1]}
+        ]        
+    }
+}

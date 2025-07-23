@@ -1,0 +1,3 @@
+/home/mind/anaconda3
+/home/mind/anaconda3/envs/Tweet_POS
+/home/mind/anaconda3/envs/carboConda

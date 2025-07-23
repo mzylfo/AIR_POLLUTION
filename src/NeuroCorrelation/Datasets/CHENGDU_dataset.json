@@ -1,0 +1,299 @@
+{
+    "CHENGDU":{
+        "SMALLGRAPH_16":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_GRAPH_n16__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_GRAPH_n16__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_GRAPH_n16__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_GRAPH_n16__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_GRAPH_n16__data.csv"
+            },
+            "copula_filename":{
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/COPULA_GENERATED/CHENGDU_SLOT_B_COPULA_n16__data.csv"
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_URBAN_GRAPH_n16__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_GRAPH_n16__edges.csv",
+            "timeweather_path":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_32":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/CHENGDU_SLOT_A_GRAPH_n32__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/CHENGDU_SLOT_B_GRAPH_n32__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/CHENGDU_SLOT_C_GRAPH_n32__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/CHENGDU_SLOT_D_GRAPH_n32__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/CHENGDU_SLOT_E_GRAPH_n32__data.csv"
+            },
+            "copula_filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/COPULA_GENERATED/CHENGDU_SLOT_B_COPULA_n32__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/COPULA_GENERATED/CHENGDU_SLOT_B_COPULA_n32__data.csv"
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/CHENGDU_URBAN_GRAPH_n32__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_32/CHENGDU_SLOT_GRAPH_n32__edges.csv",
+            "timeweather_path":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_48":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/CHENGDU_SLOT_A_GRAPH_n48__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/CHENGDU_SLOT_B_GRAPH_n48__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/CHENGDU_SLOT_C_GRAPH_n48__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/CHENGDU_SLOT_D_GRAPH_n48__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/CHENGDU_SLOT_E_GRAPH_n48__data.csv"
+            },
+            "copula_filename":{
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/COPULA_GENERATED/CHENGDU_SLOT_B_COPULA_n48__data.csv"
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/CHENGDU_URBAN_GRAPH_n48__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_48/CHENGDU_SLOT_GRAPH_n48__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_64":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/CHENGDU_SLOT_A_GRAPH_n64__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/CHENGDU_SLOT_B_GRAPH_n64__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/CHENGDU_SLOT_C_GRAPH_n64__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/CHENGDU_SLOT_D_GRAPH_n64__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/CHENGDU_SLOT_E_GRAPH_n64__data.csv"
+            },
+            "copula_filename":{
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/COPULA_GENERATED/CHENGDU_SLOT_B_COPULA_n64__data.csv"
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/CHENGDU_URBAN_GRAPH_n64__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_64/CHENGDU_SLOT_GRAPH_n64__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_96":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/CHENGDU_SLOT_A_GRAPH_n96__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/CHENGDU_SLOT_B_GRAPH_n96__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/CHENGDU_SLOT_C_GRAPH_n96__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/CHENGDU_SLOT_D_GRAPH_n96__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/CHENGDU_SLOT_E_GRAPH_n96__data.csv"
+            },
+            "copula_filename":{
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/COPULA_GENERATED/CHENGDU_SLOT_B_COPULA_n96__data.csv"
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/CHENGDU_URBAN_GRAPH_n96__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_96/CHENGDU_SLOT_GRAPH_n96__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_128":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_128/CHENGDU_SLOT_A_GRAPH_n128__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_128/CHENGDU_SLOT_B_GRAPH_n128__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_128/CHENGDU_SLOT_C_GRAPH_n128__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_128/CHENGDU_SLOT_D_GRAPH_n128__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_128/CHENGDU_SLOT_E_GRAPH_n128__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_128/CHENGDU_URBAN_GRAPH_n128__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_128/CHENGDU_SLOT_GRAPH_n128__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_192":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_192/CHENGDU_SLOT_A_GRAPH_n192__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_192/CHENGDU_SLOT_B_GRAPH_n192__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_192/CHENGDU_SLOT_C_GRAPH_n192__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_192/CHENGDU_SLOT_D_GRAPH_n192__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_192/CHENGDU_SLOT_E_GRAPH_n192__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_192/CHENGDU_URBAN_GRAPH_n192__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_192/CHENGDU_SLOT_GRAPH_n192__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_256":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_256/CHENGDU_SLOT_A_GRAPH_n256__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_256/CHENGDU_SLOT_B_GRAPH_n256__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_256/CHENGDU_SLOT_C_GRAPH_n256__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_256/CHENGDU_SLOT_D_GRAPH_n256__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_256/CHENGDU_SLOT_E_GRAPH_n256__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_256/CHENGDU_URBAN_GRAPH_n256__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_256/CHENGDU_SLOT_GRAPH_n256__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_512":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_512/CHENGDU_SLOT_A_GRAPH_n512__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_512/CHENGDU_SLOT_B_GRAPH_n512__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_512/CHENGDU_SLOT_C_GRAPH_n512__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_512/CHENGDU_SLOT_D_GRAPH_n512__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_512/CHENGDU_SLOT_E_GRAPH_n512__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_512/CHENGDU_URBAN_GRAPH_n512__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_512/CHENGDU_SLOT_GRAPH_n512__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "SMALLGRAPH_1024":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_1024/CHENGDU_SLOT_A_GRAPH_n1024__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_1024/CHENGDU_SLOT_B_GRAPH_n1024__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_1024/CHENGDU_SLOT_C_GRAPH_n1024__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_1024/CHENGDU_SLOT_D_GRAPH_n1024__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_1024/CHENGDU_SLOT_E_GRAPH_n1024__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_1024/CHENGDU_URBAN_GRAPH_n1024__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_1024/CHENGDU_SLOT_GRAPH_n1024__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        
+        "URBAN_ZONE_0":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_0/CHENGDU_SLOT_A_S0248__zone_0__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_0/CHENGDU_SLOT_B_S0248__zone_0__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_0/CHENGDU_SLOT_C_S0248__zone_0__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_0/CHENGDU_SLOT_D_S0248__zone_0__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_0/CHENGDU_SLOT_E_S0248__zone_0__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_0/CHENGDU_URBAN_S0248__zone_0__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_0/CHENGDU_SLOT_S0248__zone_0__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "URBAN_ZONE_1":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_1/CHENGDU_SLOT_A_S0240__zone_1__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_1/CHENGDU_SLOT_B_S0240__zone_1__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_1/CHENGDU_SLOT_C_S0240__zone_1__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_1/CHENGDU_SLOT_D_S0240__zone_1__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_1/CHENGDU_SLOT_E_S0240__zone_1__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_1/CHENGDU_URBAN_S0240__zone_1__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_1/CHENGDU_SLOT_S0240__zone_1__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "URBAN_ZONE_2":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_2/CHENGDU_SLOT_A_S0197__zone_2__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_2/CHENGDU_SLOT_B_S0197__zone_2__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_2/CHENGDU_SLOT_C_S0197__zone_2__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_2/CHENGDU_SLOT_D_S0197__zone_2__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_2/CHENGDU_SLOT_E_S0197__zone_2__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_2/CHENGDU_URBAN_S0197__zone_2__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_2/CHENGDU_SLOT_S0197__zone_2__edges.csv",
+            "timeweather_path": {
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_A_timeweather_onehot.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_B_timeweather_onehot.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_C_timeweather_onehot.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_D_timeweather_onehot.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_SMALLGRAPH/CHENGDU_SMALLGRAPH_16/CHENGDU_SLOT_E_timeweather_onehot.csv"
+            }
+        },
+        "URBAN_ZONE_3":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_3/CHENGDU_SLOT_A_S0268__zone_3__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_3/CHENGDU_SLOT_B_S0268__zone_3__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_3/CHENGDU_SLOT_C_S0268__zone_3__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_3/CHENGDU_SLOT_D_S0268__zone_3__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_3/CHENGDU_SLOT_E_S0268__zone_3__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_3/CHENGDU_URBAN_S0268__zone_3__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONE_3/CHENGDU_SLOT_S0268__zone_3__edges.csv",
+            "timeweather_path": null
+        },
+        "URBAN_ZONE_1-2":{
+            "filename":{
+                "A":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONES_1-2/CHENGDU_SLOT_A_S0437__zone_1-zone_2__data.csv",
+                "B":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONES_1-2/CHENGDU_SLOT_B_S0437__zone_1-zone_2__data.csv",
+                "C":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONES_1-2/CHENGDU_SLOT_C_S0437__zone_1-zone_2__data.csv",
+                "D":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONES_1-2/CHENGDU_SLOT_D_S0437__zone_1-zone_2__data.csv",
+                "E":"data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONES_1-2/CHENGDU_SLOT_E_S0437__zone_1-zone_2__data.csv"
+            },
+            "copula_filename":{
+            },
+            "pathMap":  "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONES_1-2/CHENGDU_URBAN_S0437__zone_1-zone_2__map.csv",
+            "edge_path": "data/neuroCorrelation_dataset/CHINA_CHENGDU/CHENGDU_URBAN/CHENGDU_URBAN_ZONES_1-2/CHENGDU_SLOT_S0437__zone_1-zone_2__edges.csv",
+            "timeweather_path": null
+        }
+    }
+}

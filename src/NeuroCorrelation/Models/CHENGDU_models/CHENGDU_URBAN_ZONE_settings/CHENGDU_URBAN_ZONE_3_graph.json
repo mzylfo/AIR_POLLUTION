@@ -1,0 +1,30 @@
+{
+    "VAE":{
+        "encoder_layers": [
+            {"layer": "GCNConv_Permute", "in_channels": 1, "out_channels": 1, "in_permute":[0, 2, 1], "out_permute":[0, 2, 1]},
+            {"layer": "Tanh"},
+            {"layer": "BatchNorm1d", "num_features": 1, "affine": true},
+            {"layer": "Linear", "in_features": 268, "out_features": 124},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 124, "out_features": 24}
+        ],
+        "decoder_layers": [
+            {"layer": "Linear", "in_features": 24, "out_features": 124},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 124, "out_features": 268},
+            {"layer": "Tanh"},
+            {"layer": "GCNConv_Permute", "in_channels": 1, "out_channels": 1, "in_permute":[0, 2, 1], "out_permute":[0, 2, 1]}
+        ]        
+    },
+    "GAN":{
+        "generator_layers":[],
+        "discriminator_layers":[
+            {"layer": "Linear", "in_features": 268, "out_features": 124},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 124, "out_features": 64},
+            {"layer": "Tanh"},
+            {"layer": "Linear", "in_features": 64, "out_features": 1},
+            {"layer": "Sigmoid"}
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "PEMS_BAY":{
+        "S16":{
+            "filename": "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S16/PEMS_BAY_S16_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S16/PEMS_BAY_S16__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        },
+        "S32":{
+            "filename": "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S32/PEMS_BAY_S32_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S32/PEMS_BAY_S32__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        },
+        "S48":{
+            "filename": "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S48/PEMS_BAY_S48_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S48/PEMS_BAY_S48__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        },
+        "S64":{
+            "filename": "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S64/PEMS_BAY_S64_START7_END9__data.csv",
+            "pathMap":  "data/neuroCorrelation_dataset/PEMS_BAY/PEMS_BAY_S64/PEMS_BAY_S64__map.csv",
+            "edge_path": null,
+            "timeweath_path": null
+        }
+    }
+}

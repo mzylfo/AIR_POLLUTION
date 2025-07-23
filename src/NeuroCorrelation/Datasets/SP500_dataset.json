@@ -1,0 +1,12 @@
+{
+    "SP500":{
+        "SP500_T3":{
+            "filename": "data/neuroCorrelation_dataset/SP500/SP500_T3/SP500_T3__data.csv",
+            "pathMap":  null,
+            "edge_path": null,
+            "copula_filename": null,
+            "timeweather_path": null
+        
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "MSE_LOSS": {
+        "type": "fixed",
+        "value": 1
+    },
+    "KL_DIVERGENCE_LOSS": {
+        "type": "fixed",
+        "value": 1
+    },
+    "VARIANCE_LOSS": {
+        "type": "fixed",
+        "value": 0.8
+    },
+    "JENSEN_SHANNON_DIVERGENCE_LOSS": {
+        "type": "fixed",
+        "value": 0
+    },
+    "MEDIAN_LOSS_batch": {
+        "type": "fixed",
+        "value": 0.5
+    },
+    "PEARSON_CORRELATION_LOSS": {
+        "type": "fixed",
+        "value": 0.001
+    },
+    "SPEARMAN_CORRELATION_LOSS": {
+        "type": "fixed",
+        "value": 0.001
+    }
+}

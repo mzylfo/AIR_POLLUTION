@@ -190,6 +190,14 @@ class LossFunction(nn.Module):
             loss_dict["KCCA_LOSS"] = loss_coeff
             if verbose:
                 print("KCCA_LOSS - ", loss_coeff)
+
+        if "WASSERSTEIN_LOSS" in self.loss_case:
+            wasserstein_loss = self.wasserstein_distance(values)
+            loss_coeff = wasserstein_loss.mul(coeff["WASSERSTEIN_LOSS"])
+            loss_total += loss_coeff
+            loss_dict["WASSERSTEIN_LOSS"] = loss_coeff
+            if verbose:
+                print("WASSERSTEIN_LOSS - ", loss_coeff)
                 
         if verbose:
             print("loss_total - ", loss_total)
@@ -731,6 +739,18 @@ class LossFunction(nn.Module):
 
         # Restituisce la media delle matrici di correlazione nelle finestre
         return torch.stack(correlations_output).mean(dim=0), torch.stack(correlations_input).mean(dim=0)
+    
+    def wasserstein_distance(self, values):
+        loss_ret = torch.zeros(1).to(device=self.device)
+        
+
+        for val in values:
+            x_in = val['x_input']['data'].view(self.univar_count, -1).sort(dim=1).values
+            x_out = val['x_output']['data'].view(self.univar_count, -1).sort(dim=1).values
+            loss_ret += torch.mean(torch.abs(x_in - x_out))
+
+        loss_ret /= len(values)
+        return loss_ret
 
 
 

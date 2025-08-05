@@ -1,0 +1,25 @@
+dataset settings
+================
+mode_dataset:: graph_roads
+name_dataset:: SEOUL
+time_slot:: B
+mode_dataset:: {'VAE': 100}
+batch_size:: {'VAE': 16}
+train_percentual:: 0.9
+starting_sample:: None
+train_samples:: None
+test_samples:: None
+noise_samples:: 2375
+seed:: 4
+ 
+loss settings
+================
+loss part:: VAE -
+		:: MSE_LOSS 		coef:: {'type': 'fixed', 'value': 1}
+		:: KL_DIVERGENCE_LOSS 		coef:: {'type': 'fixed', 'value': 0.5}
+		:: VARIANCE_LOSS 		coef:: {'type': 'fixed', 'value': 0.5}
+		:: JENSEN_SHANNON_DIVERGENCE_LOSS 		coef:: {'type': 'fixed', 'value': 1.0}
+		:: MEDIAN_LOSS_batch 		coef:: {'type': 'fixed', 'value': 1}
+		:: PEARSON_CORRELATION_LOSS 		coef:: {'type': 'fixed', 'value': 0.01}
+		:: SPEARMAN_CORRELATION_LOSS 		coef:: {'type': 'fixed', 'value': 0.01}
+		:: WASSERSTEIN_LOSS 		coef:: {'type': 'fixed', 'value': 0.5}

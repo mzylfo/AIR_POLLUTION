@@ -1,0 +1,19 @@
+{
+    "SEOUL":{
+        "SMALLGRAPH_16":{
+            "filename": {"B":"data/neuroCorrelation_dataset/KOREA_SEOUL/SEOUL_SMALLGRAPH/SEOUL_SMALLGRAPH_16/SEOUL_GRAPH_n16_2019_data.csv"},
+            "copula_filename": "data/neuroCorrelation_dataset/KOREA_SEOUL/SEOUL_SMALLGRAPH/SEOUL_SMALLGRAPH_16/COPULA_GENERATED/SEOUL_COPULA_n16__data.csv",
+            "pathMap":  null,
+            "edge_path": "data/neuroCorrelation_dataset/KOREA_SEOUL/SEOUL_SMALLGRAPH/SEOUL_SMALLGRAPH_16/SEOUL_SLOT_GRAPH_n16__edges.csv",
+            "timeweather_path": null
+        },
+
+        "SMALLGRAPH_25":{
+            "filename": {"B":"data/neuroCorrelation_dataset/KOREA_SEOUL/SEOUL_SMALLGRAPH/SEOUL_SMALLGRAPH_16/SEOUL_GRAPH_n25_2019_data.csv"},
+            "copula_filename": "data/neuroCorrelation_dataset/KOREA_SEOUL/SEOUL_SMALLGRAPH/SEOUL_SMALLGRAPH_16/COPULA_GENERATED/SEOUL_COPULA_n16__data.csv",
+            "pathMap":  null,
+            "edge_path": "data/neuroCorrelation_dataset/KOREA_SEOUL/SEOUL_SMALLGRAPH/SEOUL_SMALLGRAPH_16/SEOUL_SLOT_GRAPH_n25__edges.csv",
+            "timeweather_path": null
+        }
+    }
+}

@@ -1,15 +1,15 @@
 {
     "VAE":{
         "encoder_layers": [
-            {"layer": "Linear", "in_features": 16, "out_features": 12},
+            {"layer": "Linear", "in_features": 16, "out_features": 14},
             {"layer": "Tanh"},
             {"layer": "BatchNorm1d", "num_features": 1, "affine": true},
-            {"layer": "Linear", "in_features": 12, "out_features": 6}
+            {"layer": "Linear", "in_features": 14, "out_features": 12}
         ],
         "decoder_layers": [
-            {"layer": "Linear", "in_features": 6, "out_features": 10},
+            {"layer": "Linear", "in_features": 12, "out_features": 14},
             {"layer": "Tanh"},
-            {"layer": "Linear", "in_features": 10, "out_features": 16}
+            {"layer": "Linear", "in_features": 14, "out_features": 16}
         ]        
     },
     "GAN":{

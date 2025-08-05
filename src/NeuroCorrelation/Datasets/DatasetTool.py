@@ -23,6 +23,8 @@ class DatasetTool:
             filepath = Path(folderpath,"CHENGDU_dataset.json")
         elif name_dataset == "SP500":
             filepath = Path(folderpath,"SP500_dataset.json")
+        elif name_dataset == "SEOUL":
+            filepath = Path(folderpath,"SEOUL_dataset.json")
         else:
             filepath = Path()
         return filepath

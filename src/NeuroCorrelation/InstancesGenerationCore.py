@@ -151,10 +151,13 @@ class InstancesGenerationCore():
         self.model_case = model_case
         self.case = case
         
-        if self.case == "PEMS_METR" or self.case == "CHENGDU_SMALLGRAPH" or self.case == "CHENGDU_ZONE":
+        if self.case == "PEMS_METR" or self.case == "CHENGDU_SMALLGRAPH" or self.case == "CHENGDU_ZONE" or self.case == "SEOUL_SMALLGRAPH":
             if self.case == "PEMS_METR":
                 self.case_setting =   PEMS_METR_settings(model_case=self.model_case, device=self.device, univar_count=self.univar_count, lat_dim=self.lat_dim, dataset_setting=self.dataset_setting, epoch=self.epoch, path_folder=self.path_folder, corrCoeff=self.corrCoeff, instaces_size=self.instaces_size, time_performance = self.time_performance)
             elif self.case == "CHENGDU_SMALLGRAPH":
+                self.time_slot = time_slot
+                self.case_setting =   CHENGDU_SMALLGRAPH_settings(model_case=self.model_case, device=self.device, univar_count=self.univar_count, lat_dim=self.lat_dim, dataset_setting=self.dataset_setting, epoch=self.epoch, path_folder=self.path_folder, corrCoeff=self.corrCoeff, instaces_size=self.instaces_size, time_performance = self.time_performance, time_slot=self.time_slot, noise_distribution=self.noise_distribution)
+            elif self.case == "SEOUL_SMALLGRAPH":
                 self.time_slot = time_slot
                 self.case_setting =   CHENGDU_SMALLGRAPH_settings(model_case=self.model_case, device=self.device, univar_count=self.univar_count, lat_dim=self.lat_dim, dataset_setting=self.dataset_setting, epoch=self.epoch, path_folder=self.path_folder, corrCoeff=self.corrCoeff, instaces_size=self.instaces_size, time_performance = self.time_performance, time_slot=self.time_slot, noise_distribution=self.noise_distribution)
             elif self.case == "CHENGDU_ZONE":

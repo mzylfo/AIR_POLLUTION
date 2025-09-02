@@ -1178,4 +1178,3 @@ class ModelTraining():
         df = pd.DataFrame(gradients_list)
         df.to_csv(path_save_gradients_list, index=False)
 
-

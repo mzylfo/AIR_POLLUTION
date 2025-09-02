@@ -1,0 +1,49 @@
+================================================================================
+REPORT TRASFORMAZIONE PM10 → TRAFFIC SPEED DISTRIBUTION
+Data: 20250808_171646
+================================================================================
+
+STATISTICHE TARGET (TRAFFIC SPEED)
+----------------------------------------
+mean           :      21.7677
+median         :      20.7700
+std            :       6.7522
+min            :       4.3667
+max            :     111.0000
+skewness       :       0.8998
+kurtosis       :       2.0211
+
+STATISTICHE PM10 ORIGINALE
+----------------------------------------
+mean           :      61.9857
+median         :      48.0000
+std            :      72.9831
+min            :       0.0000
+max            :    1985.0000
+skewness       :      14.7123
+kurtosis       :     321.6467
+
+STATISTICHE PM10 TRASFORMATO
+----------------------------------------
+mean           :      21.7677
+median         :      20.7678
+std            :       6.7522
+min            :       5.4855
+max            :     104.8315
+skewness       :       2.1584
+kurtosis       :      17.0225
+
+METRICHE DI VALIDAZIONE
+----------------------------------------
+Wasserstein Distance: 0.4325
+KS Statistic: 0.0329
+KS p-value: 0.000000
+
+ERRORE PERCENTUALE RISPETTO AL TARGET
+----------------------------------------
+mean           :         0.00%
+median         :         0.01%
+std            :         0.00%
+
+VALUTAZIONE QUALITÀ TRASFORMAZIONE: ECCELLENTE
+================================================================================

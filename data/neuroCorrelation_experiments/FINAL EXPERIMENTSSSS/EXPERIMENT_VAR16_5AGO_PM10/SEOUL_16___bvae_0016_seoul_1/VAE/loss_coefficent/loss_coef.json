@@ -1,0 +1,34 @@
+{
+    "MSE_LOSS": {
+        "type": "fixed",
+        "value": 1
+    },
+    "KL_DIVERGENCE_LOSS": {
+        "type": "fixed",
+        "value": 0.5
+    },
+    "VARIANCE_LOSS": {
+        "type": "fixed",
+        "value": 1.752785713271468
+    },
+    "JENSEN_SHANNON_DIVERGENCE_LOSS": {
+        "type": "fixed",
+        "value": 0.1
+    },
+    "MEDIAN_LOSS_batch": {
+        "type": "fixed",
+        "value": 0.02350939526757133
+    },
+    "PEARSON_CORRELATION_LOSS": {
+        "type": "fixed",
+        "value": 0.04750740106827968
+    },
+    "SPEARMAN_CORRELATION_LOSS": {
+        "type": "fixed",
+        "value": 1.7953726213075372
+    },
+    "WASSERSTEIN_LOSS": {
+        "type": "fixed",
+        "value": 0.5
+    }
+}

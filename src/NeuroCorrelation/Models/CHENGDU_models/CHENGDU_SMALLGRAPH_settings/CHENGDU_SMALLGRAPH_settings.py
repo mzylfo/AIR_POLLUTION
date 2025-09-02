@@ -396,7 +396,15 @@ class CHENGDU_SMALLGRAPH_settings():
             #}
 
             self.loss_dict = {
-                'VAE':{ "MSE_LOSS":{"type":"fixed","value":1}, "KL_DIVERGENCE_LOSS": {"type": "fixed","value": 0.5}, "VARIANCE_LOSS": {"type": "fixed","value": 0.5}, "JENSEN_SHANNON_DIVERGENCE_LOSS": {"type": "fixed","value": 0.1}, "MEDIAN_LOSS_batch": {"type": "fixed","value": 1}, "PEARSON_CORRELATION_LOSS": {"type": "fixed","value":  1e-2} ,"SPEARMAN_CORRELATION_LOSS": {"type": "fixed","value":  1e-2}, "WASSERSTEIN_LOSS": {"type": "fixed", "value": 0.5}},
+                'VAE':{ 
+                    "MSE_LOSS":{"type":"fixed","value":1}, 
+                    "KL_DIVERGENCE_LOSS": {"type": "fixed","value": 0.5}, 
+                    "VARIANCE_LOSS": {"type": "fixed","value": 0.5}, 
+                    "JENSEN_SHANNON_DIVERGENCE_LOSS": {"type": "fixed","value": 0.1}, 
+                    "MEDIAN_LOSS_batch": {"type": "fixed","value": 1}, 
+                    "PEARSON_CORRELATION_LOSS": {"type": "fixed","value":  1e-2},
+                    "SPEARMAN_CORRELATION_LOSS": {"type": "fixed","value":  1e-2}, 
+                    "WASSERSTEIN_LOSS": {"type": "fixed", "value": 0.5}},
             }
 
             self.trainingMode = "VAE"
@@ -617,8 +625,44 @@ class CHENGDU_SMALLGRAPH_settings():
             self.model_settings['VAE']  = {"load_from_file":True, "json_filepath":Path('src','NeuroCorrelation','Models','CHENGDU_models', 'CHENGDU_SMALLGRAPH_settings', 'CHENGDU_SMALLGRAPH_256_vae_graph.json')}
             self.timeweather = False
             self.timeweather_settings = {"column_selected":[]}
-            self.learning_rate['VAE'] = 1e-2    
+            self.learning_rate['VAE'] = 1e-2   
         
+        #DUAL VAE
+
+        elif self.model_case == "DVAE_SEOUL_SMALLGRAPH_16":
+            self.mode = "graph_roads"
+            self.name_dataset = "SEOUL"
+            self.version_dataset = "SMALLGRAPH_16"
+            self.nets = ['VAE']
+            self.graph_topology = True
+            
+            #QUELLA CHE FUNZIONA BENE NON TOCCARE
+            #self.loss_dict = {
+           #     'VAE':{ "MSE_LOSS":{"type":"fixed","value":1}, "KL_DIVERGENCE_LOSS": {"type": "fixed","value": 0.5}, "VARIANCE_LOSS": {"type": "fixed","value": 0.5}, "JENSEN_SHANNON_DIVERGENCE_LOSS": {"type": "fixed","value": 1.0}, "MEDIAN_LOSS_batch": {"type": "fixed","value": 1}, "PEARSON_CORRELATION_LOSS": {"type": "fixed","value":  1e-2} ,"SPEARMAN_CORRELATION_LOSS": {"type": "fixed","value":  1e-2}, "WASSERSTEIN_LOSS": {"type": "fixed", "value": 0.5}},
+           # }
+            
+            #self.loss_dict = {
+            #    'VAE': {
+            #        "MSE_LOSS": {"type": "fixed", "value": 1.0},                         # Ricostruzione
+             #       "KL_DIVERGENCE_LOSS": {"type": "fixed", "value": 0.5},               # Regolarizzazione molto debole
+            #      "VARIANCE_LOSS": {"type": "fixed", "value": 0.5},                      # Uniformità limitata
+            #        "JENSEN_SHANNON_DIVERGENCE_LOSS": {"type": "fixed", "value": 2.0},   # Manteniamo se ha già portato vantaggi
+            #        "MEDIAN_LOSS_batch": {"type": "fixed", "value": 1.0},                # Riduce gli outlier
+            #        "PEARSON_CORRELATION_LOSS": {"type": "fixed", "value": 1e-2},        # Correlazioni lineari
+            #        "SPEARMAN_CORRELATION_LOSS": {"type": "fixed", "value": 1e-2},       # Correlazioni ordinali
+            #        "WASSERSTEIN_LOSS": {"type": "fixed", "value": 2.0}                  # Non necessario per il momento
+            #    }
+            #}
+
+            self.loss_dict = {
+                'VAE':{ "MSE_LOSS":{"type":"fixed","value":1}, "KL_DIVERGENCE_LOSS": {"type": "fixed","value": 0.5}, "VARIANCE_LOSS": {"type": "fixed","value": 0.5}, "JENSEN_SHANNON_DIVERGENCE_LOSS": {"type": "fixed","value": 0.1}, "MEDIAN_LOSS_batch": {"type": "fixed","value": 1}, "PEARSON_CORRELATION_LOSS": {"type": "fixed","value":  1e-2} ,"SPEARMAN_CORRELATION_LOSS": {"type": "fixed","value":  1e-2}, "WASSERSTEIN_LOSS": {"type": "fixed", "value": 0.5}},
+            }
+
+            self.trainingMode = "VAE"
+            self.model_settings['VAE']  = {"load_from_file":True, "json_filepath":Path('src','NeuroCorrelation','Models','CHENGDU_models', 'CHENGDU_SMALLGRAPH_settings', 'SEOUL_SMALLGRAPH_16_Dvae_graph.json')}
+            self.timeweather = False
+            self.timeweather_settings = {"column_selected":[]}
+            self.learning_rate['VAE'] = 1e-3
         
         #CVAE            
         elif self.model_case == "CVAE_CHENGDU_SMALLGRAPH_16_A_graph_kl_lin":

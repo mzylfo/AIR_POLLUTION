@@ -124,7 +124,14 @@ class DataMapsLoader():
         for i, key_vc in enumerate(self.data_df['ref'].values):
             vc_mapping.append(key_vc)
             all_values_vc[key_vc] = dict()        
-            vc_values = [float(x) for x in self.data_df['PM2.5'][i][0:-2].strip('[]').replace('"', '').replace(' ', '').split(',')]
+            #vc_values = [float(x) for x in self.data_df['NO2'][i][0:-2].strip('[]').replace('"', '').replace(' ', '').split(',')]
+            # Versione più robusta che gestisce diversi formati
+            no2_string = str(self.data_df['NO2'][i])
+            # Rimuovi le virgolette esterne se presenti
+            if no2_string.startswith('"') and no2_string.endswith('"'):
+                no2_string = no2_string[1:-1]
+            # Rimuovi le parentesi quadre e gli spazi, poi fai lo split
+            vc_values = [float(x) for x in no2_string.strip('[]').replace(' ', '').split(',') if x and x != 'null']
             if verbose:
                 print("\tkey",key_vc,"\t#istances:\t", len(vc_values))
             all_values_vc[key_vc]['values'] = vc_values

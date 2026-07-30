@@ -887,7 +887,7 @@ class ModelTraining():
                     x_in_timeweather = x_in_timeweather.view(-1, self.timeweather_count)
                     x_in_timeweather.unsqueeze_(1)
                     
-                y_hat = self.model.forward(x=x_in, x_in_timeweather=x_in_timeweather)
+                y_hat = self.model.forward(x=x_in, condition=x_in_timeweather)
                 y_hat_list_test = list()
                 
                 for i in range(item_batch):

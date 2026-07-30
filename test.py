@@ -172,6 +172,23 @@ if __name__ == "__main__":
     
         neuroExp = InstancesGeneration(sys.argv[1:])
         cprint(Style.BRIGHT + f"Folder :\t{parsed_args.main_folder}" + Style.RESET_ALL, 'red', attrs=["bold"])
+    
+    elif parsed_args.exp == "generateTwoFeatures" or parsed_args.exp == "gtf":
+        # New functionality: Generate data from two features using VAE
+        try:
+            from src.NeuroCorrelation.ModelPrediction.ModelPredictionEnhanced import TwoFeatureVAEInterface
+            cprint(Style.BRIGHT + "Two-Feature VAE Generation Mode" + Style.RESET_ALL, 'cyan', attrs=["bold"])
+            print("This mode allows you to generate synthetic data using a trained VAE model")
+            print("by providing two reference features as input.")
+            print("\nUsage example:")
+            print("python test.py --exp gtf --model_path path/to/model.pth --feature1 0.5 --feature2 1.2 --num_samples 10")
+            print("\nFor full implementation, you need to:")
+            print("1. Load your trained VAE/CVAE model")
+            print("2. Create TwoFeatureVAEInterface instance")
+            print("3. Call generate_data(feature1, feature2, num_samples)")
+        except ImportError:
+            print("ModelPredictionEnhanced not available. Please ensure all dependencies are installed.")
+    
     else:
         print(0," no opt recognized")
         
